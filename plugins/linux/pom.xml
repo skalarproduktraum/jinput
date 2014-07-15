@@ -15,6 +15,25 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>com.github.maven-nar</groupId>
+				<artifactId>nar-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>nar-javah</goal>
+						</goals>
+						<phase>compile</phase>						
+						<configuration>
+							<libraries>
+								<library>
+									<type>jni</type>
+								</library>
+							</libraries>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 			</plugin>
