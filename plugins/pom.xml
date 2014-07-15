@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.java.jinput</groupId>
-	<artifactId>jinput-plugins</artifactId>
+	<artifactId>plugins</artifactId>
 	<packaging>pom</packaging>
 
 	<parent>
@@ -16,11 +16,11 @@
 
 	<modules>
 		<module>awt</module>
-<!-- 		<module>common</module> -->
-<!-- 		<module>linux</module> -->
-<!-- 		<module>OSX</module> -->
-<!-- 		<module>windows</module> -->
-<!-- 		<module>wintab</module> -->
+		<module>common</module>
+		<module>linux</module>
+		<module>OSX</module>
+		<module>windows</module>
+		<module>wintab</module>
 	</modules>
 
 </project>
